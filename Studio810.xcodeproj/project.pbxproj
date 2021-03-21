@@ -18,6 +18,7 @@
 		0A04EC772606308A00CFAF72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04EC762606308A00CFAF72 /* ContentView.swift */; };
 		0A04EC7A2606316500CFAF72 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04EC792606316500CFAF72 /* HelpView.swift */; };
 		0A04EC7D260631BE00CFAF72 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04EC7C260631BE00CFAF72 /* SheetView.swift */; };
+		0A04EC8326063F0800CFAF72 /* StatefulPreviewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04EC8226063F0800CFAF72 /* StatefulPreviewWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,7 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		015BDA9224A2275000EAB04F /* Studio810.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Studio810.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		015BDA9224A2275000EAB04F /* Studio 810.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Studio 810.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		015BDA9524A2275000EAB04F /* Studio810App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Studio810App.swift; sourceTree = "<group>"; };
 		015BDA9924A2275200EAB04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		015BDA9C24A2275200EAB04F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -48,6 +49,7 @@
 		0A04EC762606308A00CFAF72 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A04EC792606316500CFAF72 /* HelpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		0A04EC7C260631BE00CFAF72 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		0A04EC8226063F0800CFAF72 /* StatefulPreviewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatefulPreviewWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +76,7 @@
 		015BDA9324A2275000EAB04F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				015BDA9224A2275000EAB04F /* Studio810.app */,
+				015BDA9224A2275000EAB04F /* Studio 810.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +92,7 @@
 				0A04EC792606316500CFAF72 /* HelpView.swift */,
 				0A04EC2425FEBF0700CFAF72 /* ImageCarouselView.swift */,
 				0A04EC7C260631BE00CFAF72 /* SheetView.swift */,
+				0A04EC8226063F0800CFAF72 /* StatefulPreviewWrapper.swift */,
 				015BDA9924A2275200EAB04F /* Assets.xcassets */,
 				015BDA9E24A2275200EAB04F /* Info.plist */,
 				015BDA9B24A2275200EAB04F /* Preview Content */,
@@ -124,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		015BDA9124A2275000EAB04F /* Studio810 */ = {
+		015BDA9124A2275000EAB04F /* Studio 810 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 015BDAA124A2275200EAB04F /* Build configuration list for PBXNativeTarget "Studio810" */;
+			buildConfigurationList = 015BDAA124A2275200EAB04F /* Build configuration list for PBXNativeTarget "Studio 810" */;
 			buildPhases = (
 				015BDA8E24A2275000EAB04F /* Sources */,
 				015BDA8F24A2275000EAB04F /* Frameworks */,
@@ -137,9 +140,9 @@
 			);
 			dependencies = (
 			);
-			name = Studio810;
+			name = "Studio 810";
 			productName = AppClipSneakPeek;
-			productReference = 015BDA9224A2275000EAB04F /* Studio810.app */;
+			productReference = 015BDA9224A2275000EAB04F /* Studio 810.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -169,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				015BDA9124A2275000EAB04F /* Studio810 */,
+				015BDA9124A2275000EAB04F /* Studio 810 */,
 			);
 		};
 /* End PBXProject section */
@@ -195,6 +198,7 @@
 				0A04EC7D260631BE00CFAF72 /* SheetView.swift in Sources */,
 				0A04EC5525FF012F00CFAF72 /* Light.swift in Sources */,
 				0A04EC7326062F2700CFAF72 /* MainView.swift in Sources */,
+				0A04EC8326063F0800CFAF72 /* StatefulPreviewWrapper.swift in Sources */,
 				0A04EC772606308A00CFAF72 /* ContentView.swift in Sources */,
 				0A04EC2525FEBF0800CFAF72 /* ImageCarouselView.swift in Sources */,
 				0A04EC2125FEBEE000CFAF72 /* HomeView.swift in Sources */,
@@ -384,7 +388,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		015BDAA124A2275200EAB04F /* Build configuration list for PBXNativeTarget "Studio810" */ = {
+		015BDAA124A2275200EAB04F /* Build configuration list for PBXNativeTarget "Studio 810" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				015BDAA224A2275200EAB04F /* Debug */,

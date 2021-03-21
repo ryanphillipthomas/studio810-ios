@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "015BDA9124A2275000EAB04F"
-               BuildableName = "Studio810.app"
-               BlueprintName = "Studio810"
+               BuildableName = "Studio 810.app"
+               BlueprintName = "Studio 810"
                ReferencedContainer = "container:Studio810.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "015BDA9124A2275000EAB04F"
-            BuildableName = "Studio810.app"
-            BlueprintName = "Studio810"
+            BuildableName = "Studio 810.app"
+            BlueprintName = "Studio 810"
             ReferencedContainer = "container:Studio810.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "015BDA9124A2275000EAB04F"
-            BuildableName = "Studio810.app"
-            BlueprintName = "Studio810"
+            BuildableName = "Studio 810.app"
+            BlueprintName = "Studio 810"
             ReferencedContainer = "container:Studio810.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
