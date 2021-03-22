@@ -79,7 +79,7 @@ struct HomeView: View {
                         .frame(width: geometry.size.width, height: geometry.size.height)
                         .clipped()
                 }
-            }.frame(height: 580, alignment: .center)
+            }.frame(height: 480, alignment: .center)
             
             VStack(alignment: .leading, spacing: 10) {
                 HStack {
@@ -96,16 +96,8 @@ struct HomeView: View {
                     .font(.avenirNextRegular(size: 12))
                     .foregroundColor(.gray)
                 
-                Text("Welcome to our studio")
-                    .font(.avenirNext(size: 28))
-                
-                Button("Show Sheet") {
-                    showingSheet.toggle()
-                }
-                .sheet(isPresented: $showingSheet) {
-                    SheetView()
-                }
-                
+                Text("Featured Rental Items")
+                    .font(.avenirNext(size: 32))
                 Text(loremIpsum)
                     .lineLimit(nil)
                     .font(.avenirNextRegular(size: 17))
